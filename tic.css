@@ -1,0 +1,135 @@
+
+body{
+
+	background-color: #ECF4D6;
+}
+
+
+
+h1 { 
+	color: #265073; 
+	margin-bottom: -5px; 
+} 
+p { 
+	margin-bottom: -10px; 
+} 
+.ui { 
+	display: flex; 
+	flex-direction: column; 
+	align-items: center; 
+} 
+.row { 
+	display: flex; 
+} 
+.cell { 
+	border: none; 
+	width: 80px; 
+	height: 80px; 
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+	font-size: 24px; 
+	text-align: center; 
+	cursor: pointer; 
+} 
+.cell:active { 
+	outline: none; 
+} 
+/* 3*3 Grid */
+#b1{ 
+	border-bottom: 1px solid #9AD0C2; 
+	border-right: 1px solid #9AD0C2; 
+	
+	background-color: #FBFFB1;
+} 
+
+#b2 { 
+	border-bottom: 1px solid #9AD0C2; 
+	border-right: 1px solid #9AD0C2; 
+	border-left: 1px solid #9AD0C2; 
+	background-color:#FBFFB1;
+} 
+
+#b3 { 
+	border-bottom: 1px solid #9AD0C2; 
+	border-left: 1px solid #9AD0C2; 
+	background-color:#FBFFB1;
+} 
+
+#b4 { 
+	border-top: 1px solid #9AD0C2; 
+	border-bottom: 1px solid #9AD0C2; 
+	border-right: 1px solid #9AD0C2; 
+	background-color:#FBFFB1;
+} 
+	
+#b5 { 
+	border: 1px solid #9AD0C2;
+	background-color:#FBFFB1; 
+} 
+
+#b6 { 
+	border-top: 1px solid #9AD0C2; 
+	border-bottom: 1px solid #9AD0C2; 
+	border-left: 1px solid #9AD0C2; 
+	background-color:#FBFFB1;
+} 
+
+
+#b7 { 
+	border-top: 1px solid #9AD0C2; 
+	border-right: 1px solid #9AD0C2;
+	background-color:#FBFFB1; 
+} 
+
+#b8 { 
+	border-top: 1px solid #9AD0C2; 
+	border-right: 1px solid #9AD0C2; 
+	border-left: 1px solid #9AD0C2;
+	background-color:#FBFFB1; 
+} 
+
+#b9 { 
+	border-top: 1px solid #9AD0C2; 
+	border-left: 1px solid #9AD0C2;
+	background-color:#FBFFB1; 
+} 
+/* Reset Button */
+#but { 
+	box-sizing: border-box; 
+	width: 95px; 
+	height:#9AD0C2;
+	border: 1px solid rgb(253, 8, 8); 
+	margin-left: auto; 
+	border-radius: 8px; 
+	font-family: Verdana, Tahoma, sans-serif; 
+
+	background-color: rgb(240, 10, 10); 
+	color:  rgb(0, 0, 0); 
+	font-size: 20px; 
+	cursor: pointer; 
+} 
+
+/* Player turn space */
+#print { 
+	font-family: Verdana, 
+		Geneva, Tahoma, sans-serif; 
+	color:#2D9596; 
+	font-size: 20px; 
+} 
+
+/* Main Container */
+#main { 
+	text-align: center; 
+	background-color: #9AD0C2;
+	
+
+
+} 
+
+/* Game Instruction Text */
+#ins { 
+	font-family: Verdana,Geneva, 
+					Tahoma, sans-serif; 
+	color:#2D9596; 
+}
